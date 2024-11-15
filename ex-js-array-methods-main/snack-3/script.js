@@ -4,5 +4,6 @@ const numbers = [2, 8, 4, 7, 2, 87];
 // Risultato: [3, 9, 5, 8, 3, 88]
 
 const numeri = numbers.map((element) => {
-    console.log(element + 1);
+    return element + 1;
 });
+console.log(numeri);
